@@ -7,7 +7,9 @@ import {faMobileAlt} from '@fortawesome/free-solid-svg-icons';
 
 
 function App() {
-
+  const handleClick = () => {
+    window.open('http://line.me/ti/p/~pongbmwr1200gsa')
+  }
   return (
     <div className="card">
       <h1>Panotte (Pong) Ratnajarn</h1>
@@ -17,10 +19,10 @@ function App() {
         <a href="tel:081-8623426">
         <p><FontAwesomeIcon icon={faMobileAlt}/>     081-8623426</p>
         </a>
-        <a href="http://line.me/ti/p/~pongbmwr1200gsa">
+        <a onClick ={() => handleClick()}>
           <p> <FontAwesomeIcon icon={faLine}/>     pongbmwr1200gsa</p>
         </a>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mrpong.rat03@gmail.com">
+        <a href="mailto:mrpong.rat03@gmail.com">
         <p><FontAwesomeIcon icon={faEnvelope}/>     mrpong.rat03@gmail.com</p>
         </a>
       </div>
