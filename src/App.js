@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLine } from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faMobileAlt} from '@fortawesome/free-solid-svg-icons';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+  return (
+    <div className="card">
+      <h1>Panotte Ratnajarn</h1>
+      <p>Transport Manager</p>
+      <div className="line"></div>
+      <div className="info">
+        <p><FontAwesomeIcon icon={faMobileAlt}/>     081-8623426</p>
+        <a href="http://line.me/ti/p/~pongbmwr1200gsa">
+          <p> <FontAwesomeIcon icon={faLine}/>     pongbmwr1200gsa</p>
         </a>
-      </header>
+        <a href="mailto: mrpong.rat03@gmail.com">
+        <p><FontAwesomeIcon icon={faEnvelope}/>     mrpong.rat03@gmail.com</p>
+        </a>
+      </div>
+      <div className="company-name"><p>PESTON FILM COMPANY LIMITED.</p></div>
     </div>
   );
 }
