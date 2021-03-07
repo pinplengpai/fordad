@@ -18,7 +18,7 @@ function App() {
         <a href="http://line.me/ti/p/~pongbmwr1200gsa">
           <p> <FontAwesomeIcon icon={faLine}/>     pongbmwr1200gsa</p>
         </a>
-        <a href="mailto: mrpong.rat03@gmail.com">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mrpong.rat03@gmail.com">
         <p><FontAwesomeIcon icon={faEnvelope}/>     mrpong.rat03@gmail.com</p>
         </a>
       </div>
