@@ -14,6 +14,7 @@ function App() {
       <p>Transport Manager</p>
       <div className="line"></div>
       <div className="info">
+        <a href="tel:0818623426"></a>
         <p><FontAwesomeIcon icon={faMobileAlt}/>     081-8623426</p>
         <a href="http://line.me/ti/p/~pongbmwr1200gsa">
           <p> <FontAwesomeIcon icon={faLine}/>     pongbmwr1200gsa</p>
