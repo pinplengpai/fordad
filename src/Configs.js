@@ -38,7 +38,7 @@ switch (OWNER) {
     
     case "onnski":
         NAME = "Sathanee Kladkaew";
-        POSITION = "Produciton Coordinator";
+        POSITION = "Production Coordinator";
         PHONE = "+6685-1008332";
         EMAIL = "onnski@gmail.com";
         NICKNAME = "(Onn)";
