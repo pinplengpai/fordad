@@ -1,15 +1,12 @@
 import './App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLine } from '@fortawesome/free-brands-svg-icons';
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faEnvelope, faLaptop} from '@fortawesome/free-solid-svg-icons';
 import {faMobileAlt} from '@fortawesome/free-solid-svg-icons';
 import {NAME, POSITION, EMAIL, PHONE, LINE, NICKNAME} from './Configs';
 
 
 function App() {
-  const handleClick = () => {
-    window.open('http://line.me/ti/p/~pongbmwr1200gsa')
-  }
+ 
   return (
     <div className="card">
       <div className="company"><p className="company-name">PESTON</p><span>Film Co., Ltd.</span></div>
@@ -25,6 +22,7 @@ function App() {
         <a href={'mailto:'+EMAIL}>
         <p><FontAwesomeIcon icon={faEnvelope}/>     {EMAIL}</p>
         </a>
+        <a href="http://www.santafilm.com/"><p><FontAwesomeIcon icon={faLaptop}/>  www.santafilm.com</p></a>
       </div>
       <div className="santa-name">The Subsidiary Company of Santa International Film Productions Co., Ltd.</div>
     </div>
