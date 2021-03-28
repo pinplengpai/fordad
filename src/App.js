@@ -19,16 +19,14 @@ function App() {
       <p className="position">{POSITION}</p>
       <div className="line"></div>
       <div className="info">
-        <a href={'tel'+ PHONE}>
+        <a href={'tel:'+ PHONE}>
         <p><FontAwesomeIcon icon={faMobileAlt}/>     {PHONE}</p>
         </a>
-        <a onClick ={() => handleClick()}>
-          <p> <FontAwesomeIcon icon={faLine}/>     abcdefghij{LINE}</p>
-        </a>
-        <a href="mailto:mrpong.rat03@gmail.com">
+        <a href={'mailto:'+EMAIL}>
         <p><FontAwesomeIcon icon={faEnvelope}/>     {EMAIL}</p>
         </a>
       </div>
+      <div className="santa-name">The Subsidiary Company of Santa International Film Productions Co., Ltd.</div>
     </div>
   );
 }
