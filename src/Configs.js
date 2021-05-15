@@ -30,7 +30,7 @@ switch (OWNER) {
         NAME = "Panotte Ratnajarn";
         POSITION = "Transport Manager";
         PHONE = "+6681-8623426";
-        EMAIL = "mrpong.rat03@gmail.com";
+        EMAIL = "rpanotte@hotmail.com";
         LINE = "pongbmwr1200gsa" ;
         LINELINK = "http://line.me/ti/p/~pongbmwr1200gsa"; 
         NICKNAME = "(Pong)";
